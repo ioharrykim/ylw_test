@@ -1,0 +1,128 @@
+html {
+  font-family: 'Noto Sans KR', sans-serif;
+  overflow-x: hidden;
+}
+
+/* HEADER - TOP WRAP */
+.top-wrap {
+  width: 100%;
+  height: 70px;
+}
+.top-bar {
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.logo-area {
+  padding-top: 5px;
+}
+
+/* SECTION - VIDEO SECTION */
+.video-wrap {
+  background-color: #000;
+  width: 100%;
+  height: 726px;
+  margin-top: 1px;
+}
+video {
+  margin: 0 auto;
+  width: 100%;
+  height: 726px;
+}
+
+/* SECTION - LOGIN-SECTION */
+.login-section {
+  display: flex;
+  max-width: 1000px;
+  margin: 100px auto;
+  justify-content: center;
+}
+.login-wrap {
+  display: flex;
+}
+.login-input-wrap input {
+  width: 230px;
+  height: 36px;
+  font-size: 0.8em;
+  margin-right: 8px;
+  padding: 4px 0px 4px 10px;
+  box-sizing: border-box;
+  border: solid 1px #b5b5b5;
+  border-radius: 4px;
+}
+.password-wrap input {
+  margin-top: 8px;
+}
+.login-button {
+  background-color: #c8000b;
+  width: 85px;
+  height: 80px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 82px;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  cursor: pointer;
+}
+.login-desc ul {
+  line-height: 1.4;
+  padding-inline-start: 0;
+  width: 370px;
+  margin-right: 66px;
+}
+.login-desc li {
+  margin-top: -12px;
+  list-style-type: none;
+  font-size: 0.8em;
+  color: #606060;
+}
+.login-desc li:first-child {
+  margin-top: 15px;
+}
+.login-desc li:last-child {
+  margin-bottom: 20px;
+}
+.login-desc li a {
+  color: #606060;
+}
+.submit-button {
+  background-color: #999999;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 100px;
+  width: 320px;
+  height: 36px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+
+/* FOOTER - BOTTOM WRAP */
+.bottom-wrap {
+  background-color: #e6e6e6;
+  width: 100%;
+  height: 120px;
+}
+.bottom-bar {
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-top: 60px;
+  align-items: baseline;
+}
+.bottom-bar p {
+  font-size: 0.7em;
+  font-weight: 500;
+  color: #989898;
+  margin-left: 10px;
+}
+.bottom-bar img {
+  width: 113px;
+  height: 31px;
+}
