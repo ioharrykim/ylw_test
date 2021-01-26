@@ -1,8 +1,6 @@
-console.log("Script Load");
 (function($) {
     $(document).ready(function() {
-        console.log('jQuery Ready');
-        
+        //jQuery Ready
         /* 설문조사 팝업 */
         var $pBtn = $('.poll-button');
         var $dim = $('.dim');
@@ -10,13 +8,11 @@ console.log("Script Load");
         var $cBtn = $('.close-button');
 
         $pBtn.click(function(){
-            console.log("버튼 클릭");
             $dim.show();
             $popUp.show();
             $('html').css("overflow-y","hidden");
         });
         $cBtn.click(function(){
-            console.log("닫기 버튼");
             $dim.hide();
             $popUp.hide();
             $lec1.hide();
@@ -59,67 +55,56 @@ console.log("Script Load");
             $lec11 = $('.lecture11');
         
         $thumb1.click(function(){
-            console.log("클릭");
             $dim.show();
             $lec1.show();
             $('html').css("overflow-y","hidden");
         });
         $thumb2.click(function(){
-            console.log("클릭");
             $dim.show();
             $lec2.show();
             $('html').css("overflow-y","hidden");
         });
         $thumb3.click(function(){
-            console.log("클릭");
             $dim.show();
             $lec3.show();
             $('html').css("overflow-y","hidden");
         });
         $thumb4.click(function(){
-            console.log("클릭");
             $dim.show();
             $lec4.show();
             $('html').css("overflow-y","hidden");
         });
         $thumb5.click(function(){
-            console.log("클릭");
             $dim.show();
             $lec5.show();
             $('html').css("overflow-y","hidden");
         });
         $thumb6.click(function(){
-            console.log("클릭");
             $dim.show();
             $lec6.show();
             $('html').css("overflow-y","hidden");
         });
         $thumb7.click(function(){
-            console.log("클릭");
             $dim.show();
             $lec7.show();
             $('html').css("overflow-y","hidden");
         });
         $thumb8.click(function(){
-            console.log("클릭");
             $dim.show();
             $lec8.show();
             $('html').css("overflow-y","hidden");
         });
         $live1.click(function(){
-            console.log("클릭");
             $dim.show();
             $lec9.show();
             $('html').css("overflow-y","hidden");
         });
         $live2.click(function(){
-            console.log("클릭");
             $dim.show();
             $lec10.show();
             $('html').css("overflow-y","hidden");
         });
         $live3.click(function(){
-            console.log("클릭");
             $dim.show();
             $lec11.show();
             $('html').css("overflow-y","hidden");
