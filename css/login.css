@@ -18,7 +18,7 @@ html {
 }
 .date-area {
   display: flex;
-  align-items: baseline;
+  /* align-items: baseline; */
   height: 100%;
 }
 /* .top-wrap {

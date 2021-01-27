@@ -22,21 +22,23 @@ a {
 }
 .date-area {
   display: flex;
-  align-items: baseline;
+  /* align-items: baseline; */
   height: 100%;
 }
 .logininfo {
   display: flex;
   height: 100%;
+  margin-top: 32px;
+  margin-right: 10px;
   align-items: baseline;
-  margin-top: 0;
 }
 .logininfo p {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 500;
   color: #606060;
   margin-right: 10px;
   margin-bottom: 50px;
+  height: 25px;
 }
 .logininfo button {
   /* margin-top: -20px; */
@@ -46,7 +48,7 @@ a {
   border: 1px solid #c0c0c0;
   border-radius: 8px;
   color: #606060;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 500;
   cursor: pointer;
 }
@@ -155,6 +157,11 @@ a {
 .answer-red {
   color: #c8000b;
   font-weight: 600;
+}
+.q1, .q2, .q3, .q4 {
+  align-items: center;
+}
+.answer input {
 }
 .l1, .l3, .l5, .l7, .l9 {
   background-color: #f6f6f6;
