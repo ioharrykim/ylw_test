@@ -2,19 +2,12 @@
  
 	var $logInBtn = $('.login-button');
 
-	function loginCheck() {
-		$logInBtn.click(function(){
-			if($("#input-id").val() == "test" && $("#input-pw").val() == 1234){
-				location.href = 'list.html';
-			} else {
-				alert('id/pw가 맞지 않습니다.');
-			}
-			
-		});
-	}
-	
-	loginCheck();
-
-
+	$logInBtn.click(function(){
+		if($("#input-id").val() == "shinhung" && $("#input-pw").val() == 0000){
+			location.href = 'list.html';
+		} else {
+			alert('ID / PW 가 맞지 않습니다.');
+		}
+	});
 
 })(jQuery);

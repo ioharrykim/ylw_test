@@ -6,6 +6,23 @@ html {
 /* HEADER - TOP WRAP */
 .top-wrap {
   width: 100%;
+  height: 75px;
+}
+.top-bar {
+  display: flex;
+  max-width: 1140px;
+  height: 75px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.date-area {
+  display: flex;
+  align-items: baseline;
+  height: 100%;
+}
+/* .top-wrap {
+  width: 100%;
   height: 70px;
 }
 .top-bar {
@@ -17,11 +34,11 @@ html {
 }
 .logo-area {
   padding-top: 5px;
-}
+} */
 
 /* SECTION - VIDEO SECTION */
 .video-wrap {
-  background-color: #000;
+  background-color: #fff;
   width: 100%;
   height: 726px;
   margin-top: 1px;
@@ -91,7 +108,7 @@ video {
   color: #606060;
 }
 .submit-button {
-  background-color: #999999;
+  background-color: #461666;
   color: #fff;
   font-weight: 500;
   border-radius: 100px;
