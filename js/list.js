@@ -1,19 +1,14 @@
 (function($) {
 
-    /* 설문조사 팝업 */
-    var $pBtn = $('.poll-button');
-    var $popUp = $('.poll');
+    // vimeo-video-stop
+    
+    // var vidUrl = $('iframe#vimeo-vid').attr('src');
 
-    $pBtn.click(function(){
-        console.log('클릭');
-        $('.dimpoll').show();
-        $popUp.show();
-        $('html').css("overflow-y","hidden");
-    });
-    $('.poll-close').click(function(){
-        $('.dimpoll').hide();
-        $popUp.hide();
-        $('html').css("overflow-y","scroll");
-    });
+    // $('.thumb-list').click(function(){
+    //     $('iframe#vimeo-vid').attr('src','');
+    // });
+    // $('.lectureclose').click(function(){
+    //     $('iframe#vimeo-vid').attr('src',vidUrl);
+    // });
 
 })(jQuery);

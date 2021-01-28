@@ -35,15 +35,17 @@ a {
 .logininfo p {
   font-size: 0.8rem;
   font-weight: 500;
+  width: 120px;
   color: #606060;
   margin-right: 10px;
   margin-bottom: 50px;
   height: 25px;
+  text-align: right;
 }
 .logininfo button {
   /* margin-top: -20px; */
   background-color: #f2f2f2;
-  width: 98px;
+  width: 90px;
   height: 25px;
   border: 1px solid #c0c0c0;
   border-radius: 8px;
@@ -54,6 +56,18 @@ a {
 }
 
 /* POP UP */
+#popuppoll {
+  background-color: #fff;
+  position: fixed;
+  width: 910px;
+  height: 90%;
+  margin: 50px auto 0 auto;
+  left: 0;
+  right: 0;
+  border: 2px solid #000;
+  color: #606060;
+  display: none;
+}
 .popup {
   background-color: #fff;
   position: fixed;
@@ -84,6 +98,14 @@ a {
   background-image: url(../img/poll_bg.jpg);
   background-size: cover;
   background-position: center;
+}
+.lectureclose {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  border: 0px solid #ffffff;
+  border-radius: 32px;
+  cursor: pointer;
 }
 .close-button {
   position: relative;
@@ -215,9 +237,6 @@ a {
   height: 50px;
   padding: 3px 10px;
 }
-.newcontent {
-  /* margin: 50px; */
-}
 .btn-color {
   border: 0px solid #606060;
 }
@@ -306,7 +325,7 @@ a {
   z-index: 1000;
   background-color: rgba(0, 0, 0, 0.7);
 }
-.dimpoll {
+#dimpoll {
   position: fixed;
   top: 0;
   left: 0;
@@ -411,7 +430,7 @@ a {
   margin: 0 auto;
   justify-content: space-between;
 }
-.poll-button {
+#poll-button {
   display: flex;
   background-color: #c8000b;
   width: 1140px;
@@ -426,7 +445,7 @@ a {
   font-weight: 600;
   cursor: pointer;
 }
-.poll-button span {
+#poll-button span {
   font-size: 0.5rem;
   margin-left: 8px;
 }
